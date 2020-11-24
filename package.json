@@ -4,7 +4,7 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/bot.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/yurtsiv/annoy-me-bot#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "mqtt": "^4.0.0",
     "telegraf": "^3.38.0"
   }
